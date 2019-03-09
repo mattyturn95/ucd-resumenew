@@ -34,6 +34,13 @@
     background-color: #fafafa;
 }
 
+.bg-color-contact {
+    background-color: #989898;
+}
+
+
+
+
 /*--------------------------------------------Special Paddings/Margins/Text*/
 
 h1,
@@ -68,6 +75,7 @@ h4 {
     margin-bottom: 40px;
     color: #fafafa;
 }
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -153,6 +161,7 @@ header {
 }
 
 /*--------------------------------------------Footer*/
+
 footer {
     background-color: #464141;
     color: #fafafa;
@@ -309,7 +318,11 @@ footer .cv-pdf i:hover {
     content: '';
     background: #fafafa;
     margin: 0;
-    
+
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
 
 
@@ -322,4 +335,42 @@ footer .cv-pdf i:hover {
         float: none;
         display: table-cell;
     }
+}
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+
+/*--------------------------------------------Contact Form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.h5-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fafafa;
+    background-color: #e84610;
 }
